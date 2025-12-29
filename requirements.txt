@@ -1,0 +1,5 @@
+discord.py
+pycryptodome
+pywin32
+pyautogui
+opencv-python
