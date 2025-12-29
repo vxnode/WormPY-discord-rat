@@ -17,25 +17,25 @@ When a client runs the payload the bot-manager will send a log into the rat-log 
 There is no prefix for commands. The bot-manager just listen for commands like "screenshot" directly.
 
 **Available Commands**
-pwd                 : Show current working directory
-cd <path>           : Change directory
-ls                  : List files in current directory
-cmd <command>       : Run shell command
-ps <command>        : Run PowerShell command
-screenshot          : Take a screenshot
-webcam              : Capture image from webcam
-upload <filename>   : Upload a file (attach file to message)
-download <filename> : Download a file"
-critical            : Make payload critical process
-grabpasswords       : Steal user passwords
-grabcookies         : Steal user cookies
-listprocs           : List current running rats
-killrat             : Kill PID-specified rat process
-stream              : Start streaming screenshots
-disableuac          : Disable UAC permanently
-enableuac           : Enable UAC permanently
-stopstream          : Stop streaming screenshots
-persistpayload      : Add payload persistence\
-unpersistpayload    : Remove payload persistence
-getclipboard        : Retrieve the contents of the clipboard
-setclipboard <text> : Set the contents of the clipboard to specified text
+-pwd                 : Show current working directory
+-cd <path>           : Change directory
+-ls                  : List files in current directory
+-cmd <command>       : Run shell command
+-ps <command>        : Run PowerShell command
+-screenshot          : Take a screenshot
+-webcam              : Capture image from webcam
+-upload <filename>   : Upload a file (attach file to message)
+-download <filename> : Download a file"
+-critical            : Make payload critical process
+-grabpasswords       : Steal user passwords
+-grabcookies         : Steal user cookies
+-listprocs           : List current running rats
+-killrat             : Kill PID-specified rat process
+-stream              : Start streaming screenshots
+-disableuac          : Disable UAC permanently
+-enableuac           : Enable UAC permanently
+-stopstream          : Stop streaming screenshots
+-persistpayload      : Add payload persistence\
+-unpersistpayload    : Remove payload persistence
+-getclipboard        : Retrieve the contents of the clipboard
+-setclipboard <text> : Set the contents of the clipboard to specified text
