@@ -17,25 +17,25 @@ When a client runs the payload the bot-manager will send a log into the rat-log 
 There is no prefix for commands. The bot-manager just listen for commands like "screenshot" directly.
 
 **Available Commands**
-pwd                 : Show current working directory
-cd <path>           : Change directory
-ls                  : List files in current directory
-cmd <command>       : Run shell command
-ps <command>        : Run PowerShell command
-screenshot          : Take a screenshot
-webcam              : Capture image from webcam
-upload <filename>   : Upload a file (attach file to message)
-download <filename> : Download a file"
-critical            : Make payload critical process
-grabpasswords       : Steal user passwords
-grabcookies         : Steal user cookies
-listprocs           : List current running rats
-killrat             : Kill PID-specified rat process
-stream              : Start streaming screenshots
-disableuac          : Disable UAC permanently
-enableuac           : Enable UAC permanently
-stopstream          : Stop streaming screenshots
-persistpayload      : Add payload persistence\
-unpersistpayload    : Remove payload persistence
-getclipboard        : Retrieve the contents of the clipboard
-setclipboard <text> : Set the contents of the clipboard to specified text
+            "- `pwd` : Show current working directory\n"
+            "- `cd <path>` : Change directory\n"
+            "- `ls` : List files in current directory\n"
+            "- `cmd <command>` : Run shell command\n"
+            "- `ps <command>` : Run PowerShell command\n"
+            "- `screenshot` : Take a screenshot\n"
+            "- `webcam` : Capture image from webcam\n"
+            "- `upload <filename>` : Upload a file (attach file to message)\n"
+            "- `download <filename>` : Download a file\n"
+            "- `critical` : Make payload critical process\n"
+            "- `grabpasswords` : Steal user passwords\n"
+            "- `grabcookies` : Steal user cookies\n"
+            "- `listprocs` : List current running rats\n"
+            "- `killrat` : Kill PID-specified rat process\n"
+            "- `stream` : Start streaming screenshots\n"
+            "- `disableuac` : Disable UAC permanently\n"
+            "- `enableuac` : Enable UAC permanently\n"
+            "- `stopstream` : Stop streaming screenshots\n"
+            "- `persistpayload` : Add payload persistence\n"
+            "- `unpersistpayload` : Remove payload persistence\n"
+            "- `getclipboard` : Retrieve the contents of the clipboard\n"
+            "- `setclipboard <text>` : Set the contents of the clipboard to specified text\n"
