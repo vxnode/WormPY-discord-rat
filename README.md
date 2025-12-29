@@ -12,7 +12,7 @@ This tool is provided "as is" for educational and authorized testing purposes on
 Use at your own risk and always obtain proper permission before accessing any system.
 
 **Usage**
-The bot-manager has to be running for clients to connect to the discord bot. There is no builder yet for the bot-manager, you will manually have to insert your guild id and bot token.
+The bot-manager has to be running on the **attackers computer** for clients to connect to the discord bot. There is no builder yet for the bot-manager, you will manually have to insert your guild id and bot token.
 When a client runs the payload the bot-manager will send a log into the rat-log channel something like !register example, this is the commmand you wanna run to generate the channel for the infected system.
 There is no prefix for commands. The bot-manager just listen for commands like "screenshot" directly.
 
